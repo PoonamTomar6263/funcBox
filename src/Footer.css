@@ -1,0 +1,36 @@
+.footer{
+    background-color: teal;
+}
+.footer1{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px;
+    border: 2px solid white;
+    
+}
+.footer1 input{
+width: 20%;
+border-radius: 10px;
+padding: 5px;
+border: none;
+
+}
+.connect{
+   align-items: center;
+    display: flex;
+    margin-left: 45%;
+}
+h4{
+    text-align: center;
+}
+.connect img{
+    padding: 10px;
+    width: 20px;
+    
+}
+.join{
+    text-align: right;
+    margin-right: 10px;
+}

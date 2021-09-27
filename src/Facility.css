@@ -1,0 +1,12 @@
+.facility{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fac{
+    display: flex;
+    align-items: center;
+}
+.fac img{
+    margin-right: 20px;
+    width: 50px;
+}
