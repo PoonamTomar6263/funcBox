@@ -1,26 +1,16 @@
-import logo from './logo.svg';
-//import './App.css';
-import Header from './Header';
-import MiddlePage from './MiddlePage';
-import Facility from './Facility';
-import Question from './Question';
-import School from './School';
-import Footer from './Footer';
-import Plans from './Plans';
-
+import React from 'react'
+import Cards from './Card'
+import './App.css'
 function App() {
   return (
-    <div className="App">
-     <Header/>
-     <MiddlePage/>
-     
-     <Facility/>
-     <Plans/>
-     <Question/>
-     <School/>
-     <Footer/>
+    <div className="app">
+      <Cards />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
+
+
+
+
